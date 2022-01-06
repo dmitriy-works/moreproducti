@@ -1,0 +1,804 @@
+<!DOCTYPE html>
+<!-- saved from url=(0080)https://xn-%2D-%2D7sbbaqhlkm9ah9aiq.net/news-new/sbros-css-stiley-css-reset.html -->
+<html lang="ru-RU" class=" js csstransforms csstransforms3d csstransitions grunticon"><link type="text/css" rel="stylesheet" id="dark-mode-custom-link"><link type="text/css" rel="stylesheet" id="dark-mode-general-link"><style lang="en" type="text/css" id="dark-mode-custom-style"></style><style lang="en" type="text/css" id="dark-mode-native-style"></style><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style>.jquery-ripples { position: relative; z-index: 0; }</style>
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">    
+<title>Сброс CSS стилей - CSS reset - Normalize.css</title>
+<meta property="og:title" content="Сброс CSS стилей - CSS reset - Normalize.css">
+<meta property="og:url" content="https://xn----7sbbaqhlkm9ah9aiq.net/news-new/sbros-css-stiley-css-reset.html">
+<meta property="og:image" content="https://xn----7sbbaqhlkm9ah9aiq.net/images/newsnew/newsnew/normalize-css.jpeg">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="xn----7sbbaqhlkm9ah9aiq.net">
+<meta property="og:locale" content="ru_RU">
+<meta property="og:description" content="">
+<link rel="canonical" href="https://xn----7sbbaqhlkm9ah9aiq.net/news-new/sbros-css-stiley-css-reset.html">
+<meta name="google-site-verification" content="ZEB8Aph6Px9gzaCh9dmYcSU58D5p9HtuxuDyI3BrFn4">
+<link rel="icon" href="https://xn----7sbbaqhlkm9ah9aiq.net/images/favicon.ico" type="image/x-icon">  
+<link rel="stylesheet" href="./CSS reset _files/icons.data.svg.css" media="all"><script>var BASESITE = "https://xn----7sbbaqhlkm9ah9aiq.net/";</script>	
+<script type="text/javascript">var theme_url = '';</script>
+<link rel="preload" href="https://xn----7sbbaqhlkm9ah9aiq.net/fonts/fy16iFMh.woff" as="font" type="font/woff" crossorigin="">
+<link rel="preload" href="https://xn----7sbbaqhlkm9ah9aiq.net/fonts/PFDinDisplayProRegular.woff2" as="font" type="font/woff2" crossorigin="">
+<style>
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #fff;
+    /* change if the mask should have another color then white */
+    
+    z-index: 300;
+    /* makes sure it stays on top */
+}
+
+@media only screen and (max-width: 640px) {	
+	#status img {
+		position: relative;
+		width:100%;
+		display: none;
+	}
+}
+
+#status img {
+    display: block;
+    height: auto;
+    max-width: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+</style>
+</head>
+<body class="home page-template-default page page-id-2" style="visibility: visible; overflow: visible;">
+<div id="preloader" style="display: none;">
+    <div id="status" style="display: none;"><img src="./CSS reset _files/weberous-loader.gif"></div>
+</div>
+
+<header role="banner" id="header">
+    <div class="container clearfix" id="block_1"><!-- [block: block_1] -->
+		<!-- menunew/ancient --><!--
+[name: menunew]
+-->
+<div class="logo"> <a href="https://xn----7sbbaqhlkm9ah9aiq.net/"><img class="img-responsive" data-src="/images/logo-ny.png" alt="Создание сайтов в ABCname" title="Разработать сайт от создание-сайта.net" src="./CSS reset _files/logo-ny.png"></a> </div>
+<div class="info"><div class="icon-Phone alt-font">
+<a href="tel:+380966622741">(096) 662-27-41</a></div><div class="region"></div>
+
+
+</div>
+
+
+<nav>
+	<a class="icon-Menu">Меню</a>
+	<ul class="constructor-template" data-category-id="55" data-parent_id="" data-template-type="grid" data-template-name="menunew">
+		
+								  			<li class="menu-item menu-item-type-post_type menu-item-object-page  menu-item-has-children"><a href="https://xn----7sbbaqhlkm9ah9aiq.net/razrabotka-internet-proektov/">Разработка</a>									
+								
+			<a class="sub-arrow" href="https://xn----7sbbaqhlkm9ah9aiq.net/news-new/sbros-css-stiley-css-reset.html"></a><ul class="submenu" style="height: 270px;">
+			  			  <li class="menu-item menu-item-type-post_type menu-item-object-page" style="top: 0px; left: -260px; opacity: 0;"><a href="https://xn----7sbbaqhlkm9ah9aiq.net/razrabotka-internet-proektov/sozdanie-internet-magazina/">Интернет магазин</a>
+								  </li>
+			  			  <li class="menu-item menu-item-type-post_type menu-item-object-page" style="top: 45px; right: -260px; opacity: 0;"><a href="https://xn----7sbbaqhlkm9ah9aiq.net/razrabotka-internet-proektov/sozdanie-korporativnogo-sayta/">Корпоративный сайт</a>
+								  </li>
+			  			  <li class="menu-item menu-item-type-post_type menu-item-object-page" style="top: 90px; left: -260px; opacity: 0;"><a href="https://xn----7sbbaqhlkm9ah9aiq.net/razrabotka-internet-proektov/sozdanie-sayta-kataloga/">Сайт каталог</a>
+								  </li>
+			  			  <li class="menu-item menu-item-type-post_type menu-item-object-page" style="top: 135px; right: -260px; opacity: 0;"><a href="https://xn----7sbbaqhlkm9ah9aiq.net/razrabotka-internet-proektov/sozdanie-sayta-vizitki/">Сайт визитка</a>
+								  </li>
+			  			  <li class="menu-item menu-item-type-post_type menu-item-object-page" style="top: 180px; left: -260px; opacity: 0;"><a href="https://xn----7sbbaqhlkm9ah9aiq.net/razrabotka-internet-proektov/sazdanie-landing-page/">Landing page</a>
+								  </li>
+			  			  <li class="menu-item menu-item-type-post_type menu-item-object-page" style="top: 225px; right: -260px; opacity: 0;"><a href="https://xn----7sbbaqhlkm9ah9aiq.net/razrabotka-internet-proektov/sozdanie-eksklyuzivnogo-proekta/">Эксклюзивный проект</a>
+								  </li>
+			  			</ul>  
+		  			</li>
+				  			<li class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://xn----7sbbaqhlkm9ah9aiq.net/services-new/">Все услуги</a>									
+						</li>
+				  			<li class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://xn----7sbbaqhlkm9ah9aiq.net/portfolio-new/">Наши работы</a>									
+						</li>
+				  			<li class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://xn----7sbbaqhlkm9ah9aiq.net/zakazat-sayt/">Заказать сайт</a>									
+						</li>
+				  			<li class="menu-item menu-item-type-post_type menu-item-object-page  menu-item-has-children"><a href="https://xn----7sbbaqhlkm9ah9aiq.net/info/">Информация</a>									
+								
+			<a class="sub-arrow" href="https://xn----7sbbaqhlkm9ah9aiq.net/news-new/sbros-css-stiley-css-reset.html"></a><ul class="submenu" style="height: 225px;">
+			  			  <li class="menu-item menu-item-type-post_type menu-item-object-page" style="top: 0px; left: -260px; opacity: 0;"><a href="https://xn----7sbbaqhlkm9ah9aiq.net/news-new/">Блоги, статьи, новости</a>
+								  </li>
+			  			  <li class="menu-item menu-item-type-post_type menu-item-object-page" style="top: 45px; right: -260px; opacity: 0;"><a href="https://xn----7sbbaqhlkm9ah9aiq.net/info/faq/">Часто задаваемые вопросы</a>
+								  </li>
+			  			  <li class="menu-item menu-item-type-post_type menu-item-object-page" style="top: 90px; left: -260px; opacity: 0;"><a href="https://xn----7sbbaqhlkm9ah9aiq.net/info/instructions-cmsdk/">Инструкции</a>
+								  </li>
+			  			  <li class="menu-item menu-item-type-post_type menu-item-object-page" style="top: 135px; right: -260px; opacity: 0;"><a href="https://xn----7sbbaqhlkm9ah9aiq.net/info/otzyvy/">Отзывы</a>
+								  </li>
+			  			  <li class="menu-item menu-item-type-post_type menu-item-object-page" style="top: 180px; left: -260px; opacity: 0;"><a href="https://xn----7sbbaqhlkm9ah9aiq.net/info/nasha-komanda/">Наша команда</a>
+								  </li>
+			  			</ul>  
+		  			</li>
+				  			<li class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://xn----7sbbaqhlkm9ah9aiq.net/contacts-new/">Контакты</a>									
+						</li>
+					
+					
+		
+	</ul>				
+</nav>
+<div class="rd-navbar-phone">
+<div><a href="tel:+380676222224">(067) 622-22-24</a></div><div><a href="tel:+380635672992">(063) 567-29-92</a></div></div>
+    </div>
+</header>
+
+<main role="main" id="fullpage">
+	<div id="block_2"><!-- [block: block_2] -->
+		<!-- newsnew/one --><div id="feat-area" class="wow fadeIn" data-wow-delay="0.5s">
+	<div class="container">
+		<h1 data-wow-delay="0.8s" data-wow-duration="1s" class="title wow fadeIn">Сброс CSS стилей (CSS reset)</h1> 
+		<!--
+[name: Breads]
+[type: Info]
+-->
+<div class="breads">
+<ul itemscope="" itemtype="https://schema.org/BreadcrumbList">
+	    	 <li itemprop="itemListElement" itemscope="" itemtype="https://schema.org/ListItem">
+      <a itemprop="item" title="Главная" href="https://xn----7sbbaqhlkm9ah9aiq.net/">
+		<span itemprop="name">Главная</span>
+      </a>
+	  <svg class="icon arrow"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/images/sprite-icon.svg#icon-chevron-down"></use></svg>
+	  <meta itemprop="position" content="1">
+    </li>
+	   
+    
+        	 <li itemprop="itemListElement" itemscope="" itemtype="https://schema.org/ListItem">
+      <a itemprop="item" title="Блог" href="https://xn----7sbbaqhlkm9ah9aiq.net/news-new/">
+        <span itemprop="name">Блог</span>
+      </a>
+	  <svg class="icon arrow"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/images/sprite-icon.svg#icon-chevron-down"></use></svg>
+	  <meta itemprop="position" content="2">
+    </li>
+       
+    
+        	 <li itemprop="itemListElement" itemscope="" itemtype="https://schema.org/ListItem">
+      <a itemprop="item" title="Сброс CSS стилей (CSS reset)" href="https://xn----7sbbaqhlkm9ah9aiq.net/news-new/sbros-css-stiley-css-reset.html">
+        <span itemprop="name">Сброс CSS стилей (CSS reset)</span>
+      </a>
+	  <svg class="icon arrow"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/images/sprite-icon.svg#icon-chevron-down"></use></svg>
+	  <meta itemprop="position" content="3">
+    </li>
+       
+    
+    </ul>
+</div>	</div>
+	<nav class="wave-nav bottom left white" role="navigation">
+		<ul id="wave" class="right">
+			<li></li>
+			<li></li>
+			<li></li>
+		</ul>
+	</nav>
+	<svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="wave-svg">
+		<defs>
+			<filter id="water">
+				<fegaussianblur in="SourceGraphic" stdDeviation="7" result="blur"></fegaussianblur>
+				<fecolormatrix in="blur" mode="matrix" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 19 -9" result="goo"></fecolormatrix>
+				<fecomposite in="SourceGraphic" in2="goo" operator="atop"></fecomposite> </filter>
+		</defs>
+	</svg>
+</div>
+
+<div class="section bg-white">
+<div class="container clearfix">
+
+<div class="constructor-template" data-category-id="55" data-template-type="form" data-template-name="newsnew" data-template-id="232" data-template-object="object">
+<article> 
+
+	
+<script type="text/javascript" src="./CSS reset _files/shCore.js.Без названия"></script>
+<script type="text/javascript" src="./CSS reset _files/shBrushPhp.js.Без названия"></script>
+<script type="text/javascript" src="./CSS reset _files/shBrushXml.js.Без названия"></script>
+<script type="text/javascript" src="./CSS reset _files/shBrushJScript.js.Без названия"></script>
+<script type="text/javascript" src="./CSS reset _files/shBrushCss.js.Без названия"></script>
+<script type="text/javascript" src="./CSS reset _files/shBrushBash.js.Без названия"></script>
+
+<link type="text/css" rel="stylesheet" href="./CSS reset _files/shCore.css">
+<link type="text/css" rel="stylesheet" href="./CSS reset _files/shThemeDefault.css">
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+
+<div class="post-heading">
+<h2 class="aup">Сброс CSS стилей (CSS reset)</h2>
+<div class="eye">
+	<div class="eye-svg">
+	<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 511.999 511.999" style="enable-background:new 0 0 511.999 511.999;" xml:space="preserve"> <g> <g> <path d="M508.745,246.041c-4.574-6.257-113.557-153.206-252.748-153.206S7.818,239.784,3.249,246.035 c-4.332,5.936-4.332,13.987,0,19.923c4.569,6.257,113.557,153.206,252.748,153.206s248.174-146.95,252.748-153.201 C513.083,260.028,513.083,251.971,508.745,246.041z M255.997,385.406c-102.529,0-191.33-97.533-217.617-129.418 c26.253-31.913,114.868-129.395,217.617-129.395c102.524,0,191.319,97.516,217.617,129.418 C447.361,287.923,358.746,385.406,255.997,385.406z"></path> </g> </g> <g> <g> <path d="M255.997,154.725c-55.842,0-101.275,45.433-101.275,101.275s45.433,101.275,101.275,101.275 s101.275-45.433,101.275-101.275S311.839,154.725,255.997,154.725z M255.997,323.516c-37.23,0-67.516-30.287-67.516-67.516 s30.287-67.516,67.516-67.516s67.516,30.287,67.516,67.516S293.227,323.516,255.997,323.516z"></path> </g> </g> </svg> 	
+	</div>
+	<span>2804</span>
+</div>
+</div>
+
+
+<div class="contents">
+		<ul>
+				<li><a href="https://xn----7sbbaqhlkm9ah9aiq.net/news-new/sbros-css-stiley-css-reset.html#t1">Eric Meyer</a></li>
+				<li><a href="https://xn----7sbbaqhlkm9ah9aiq.net/news-new/sbros-css-stiley-css-reset.html#t2">Normalize.css</a></li>
+						
+	</ul>
+</div>
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@graph": [{"@context": "https://schema.org","@type":"SiteNavigationElement","@id":"#table-of-contents","name": "Eric Meyer","url": "https://xn----7sbbaqhlkm9ah9aiq.net/news-new/sbros-css-stiley-css-reset.html#t1"},{"@context": "https://schema.org","@type":"SiteNavigationElement","@id":"#table-of-contents","name": "Normalize.css","url": "https://xn----7sbbaqhlkm9ah9aiq.net/news-new/sbros-css-stiley-css-reset.html#t2"}]
+}
+</script>
+
+
+
+<h3>Как сбросить CSS стили в исходное состояние CSS reset</h3> 
+<p>Задача сброса CSS стилей состоит в том, чтобы привести вид CSS в исходное состояние по умолчанию в разных браузерах.</p>
+
+<h2 id="t1">Eric Meyer's CSS Reset</h2>
+<p>Решение представлено meyerweb.com <a href="https://meyerweb.com/eric/tools/css/reset/">Eric Meyer v2.0</a>.</p>
+<div><div id="highlighter_41364" class="syntaxhighlighter  css"><div class="toolbar"><span><a href="https://xn----7sbbaqhlkm9ah9aiq.net/news-new/sbros-css-stiley-css-reset.html#" class="toolbar_item command_help help">?</a></span></div><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="gutter"><div class="line number1 index0 alt2">1</div><div class="line number2 index1 alt1">2</div><div class="line number3 index2 alt2">3</div><div class="line number4 index3 alt1">4</div><div class="line number5 index4 alt2">5</div><div class="line number6 index5 alt1">6</div><div class="line number7 index6 alt2">7</div><div class="line number8 index7 alt1">8</div><div class="line number9 index8 alt2">9</div><div class="line number10 index9 alt1">10</div><div class="line number11 index10 alt2">11</div><div class="line number12 index11 alt1">12</div><div class="line number13 index12 alt2">13</div><div class="line number14 index13 alt1">14</div><div class="line number15 index14 alt2">15</div><div class="line number16 index15 alt1">16</div><div class="line number17 index16 alt2">17</div><div class="line number18 index17 alt1">18</div><div class="line number19 index18 alt2">19</div><div class="line number20 index19 alt1">20</div><div class="line number21 index20 alt2">21</div><div class="line number22 index21 alt1">22</div><div class="line number23 index22 alt2">23</div><div class="line number24 index23 alt1">24</div><div class="line number25 index24 alt2">25</div><div class="line number26 index25 alt1">26</div><div class="line number27 index26 alt2">27</div><div class="line number28 index27 alt1">28</div><div class="line number29 index28 alt2">29</div><div class="line number30 index29 alt1">30</div><div class="line number31 index30 alt2">31</div><div class="line number32 index31 alt1">32</div><div class="line number33 index32 alt2">33</div><div class="line number34 index33 alt1">34</div><div class="line number35 index34 alt2">35</div><div class="line number36 index35 alt1">36</div><div class="line number37 index36 alt2">37</div><div class="line number38 index37 alt1">38</div><div class="line number39 index38 alt2">39</div><div class="line number40 index39 alt1">40</div><div class="line number41 index40 alt2">41</div><div class="line number42 index41 alt1">42</div><div class="line number43 index42 alt2">43</div><div class="line number44 index43 alt1">44</div><div class="line number45 index44 alt2">45</div></td><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="css plain">html, body, div, span, applet, object, iframe,</code></div><div class="line number2 index1 alt1"><code class="css plain">h</code><code class="css value">1</code><code class="css plain">, h</code><code class="css value">2</code><code class="css plain">, h</code><code class="css value">3</code><code class="css plain">, h</code><code class="css value">4</code><code class="css plain">, h</code><code class="css value">5</code><code class="css plain">, h</code><code class="css value">6</code><code class="css plain">, p, blockquote, </code><code class="css value">pre</code><code class="css plain">,</code></div><div class="line number3 index2 alt2"><code class="css plain">a, abbr, acronym, address, big, cite, </code><code class="css value">code</code><code class="css plain">,</code></div><div class="line number4 index3 alt1"><code class="css plain">del, dfn, em, img, ins, kbd, q, s, samp,</code></div><div class="line number5 index4 alt2"><code class="css value">small</code><code class="css plain">, strike, strong, </code><code class="css value">sub</code><code class="css plain">, sup, tt, var,</code></div><div class="line number6 index5 alt1"><code class="css plain">b, u, i, </code><code class="css value">center</code><code class="css plain">,</code></div><div class="line number7 index6 alt2"><code class="css plain">dl, dt, dd, ol, ul, li,</code></div><div class="line number8 index7 alt1"><code class="css plain">fieldset, form, label, legend,</code></div><div class="line number9 index8 alt2"><code class="css plain">table, </code><code class="css value">caption</code><code class="css plain">, tbody, tfoot, thead, tr, th, td,</code></div><div class="line number10 index9 alt1"><code class="css plain">article, aside, canvas, details, </code><code class="css value">embed</code><code class="css plain">, </code></div><div class="line number11 index10 alt2"><code class="css plain">figure, figcaption, footer, header, hgroup, </code></div><div class="line number12 index11 alt1"><code class="css plain">menu, nav, output, ruby, section, summary,</code></div><div class="line number13 index12 alt2"><code class="css plain">time, mark, audio, video {</code></div><div class="line number14 index13 alt1"><code class="css spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="css keyword">margin</code><code class="css plain">: </code><code class="css value">0</code><code class="css plain">;</code></div><div class="line number15 index14 alt2"><code class="css spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="css keyword">padding</code><code class="css plain">: </code><code class="css value">0</code><code class="css plain">;</code></div><div class="line number16 index15 alt1"><code class="css spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="css keyword">border</code><code class="css plain">: </code><code class="css value">0</code><code class="css plain">;</code></div><div class="line number17 index16 alt2"><code class="css spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="css keyword">font-size</code><code class="css plain">: </code><code class="css value">100%</code><code class="css plain">;</code></div><div class="line number18 index17 alt1"><code class="css spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="css keyword">font</code><code class="css plain">: inherit;</code></div><div class="line number19 index18 alt2"><code class="css spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="css keyword">vertical-align</code><code class="css plain">: </code><code class="css value">baseline</code><code class="css plain">;</code></div><div class="line number20 index19 alt1"><code class="css plain">}</code></div><div class="line number21 index20 alt2"><code class="css plain">article, aside, details, figcaption, figure, </code></div><div class="line number22 index21 alt1"><code class="css plain">footer, header, hgroup, menu, nav, section {</code></div><div class="line number23 index22 alt2"><code class="css spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="css keyword">display</code><code class="css plain">: </code><code class="css value">block</code><code class="css plain">;</code></div><div class="line number24 index23 alt1"><code class="css plain">}</code></div><div class="line number25 index24 alt2"><code class="css plain">html {</code></div><div class="line number26 index25 alt1"><code class="css spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="css keyword">height</code><code class="css plain">: </code><code class="css value">100%</code><code class="css plain">;</code></div><div class="line number27 index26 alt2"><code class="css plain">}</code></div><div class="line number28 index27 alt1"><code class="css plain">body {</code></div><div class="line number29 index28 alt2"><code class="css spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="css keyword">line-height</code><code class="css plain">: </code><code class="css value">1</code><code class="css plain">;</code></div><div class="line number30 index29 alt1"><code class="css plain">}</code></div><div class="line number31 index30 alt2"><code class="css plain">ol, ul {</code></div><div class="line number32 index31 alt1"><code class="css spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="css keyword">list-style</code><code class="css plain">: </code><code class="css value">none</code><code class="css plain">;</code></div><div class="line number33 index32 alt2"><code class="css plain">}</code></div><div class="line number34 index33 alt1"><code class="css plain">blockquote, q {</code></div><div class="line number35 index34 alt2"><code class="css spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="css keyword">quotes</code><code class="css plain">: </code><code class="css value">none</code><code class="css plain">;</code></div><div class="line number36 index35 alt1"><code class="css plain">}</code></div><div class="line number37 index36 alt2"><code class="css plain">blockquote:before, blockquote:after,</code></div><div class="line number38 index37 alt1"><code class="css plain">q:before, q:after {</code></div><div class="line number39 index38 alt2"><code class="css spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="css keyword">content</code><code class="css plain">: </code><code class="css string">''</code><code class="css plain">;</code></div><div class="line number40 index39 alt1"><code class="css spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="css keyword">content</code><code class="css plain">: </code><code class="css value">none</code><code class="css plain">;</code></div><div class="line number41 index40 alt2"><code class="css plain">}</code></div><div class="line number42 index41 alt1"><code class="css plain">table {</code></div><div class="line number43 index42 alt2"><code class="css spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="css keyword">border-collapse</code><code class="css plain">: </code><code class="css value">collapse</code><code class="css plain">;</code></div><div class="line number44 index43 alt1"><code class="css spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="css keyword">border-spacing</code><code class="css plain">: </code><code class="css value">0</code><code class="css plain">;</code></div><div class="line number45 index44 alt2"><code class="css plain">}</code></div></div></td></tr></tbody></table></div></div>
+<br>
+
+<h2 id="t2">Normalize.css</h2>
+<p>Более полный сброс CSS стилей для IE, iOS, Safari <a href="https://necolas.github.io/normalize.css">https://necolas.github.io/normalize.css</a></p>
+
+<div><div id="highlighter_25031" class="syntaxhighlighter  css"><div class="toolbar"><span><a href="https://xn----7sbbaqhlkm9ah9aiq.net/news-new/sbros-css-stiley-css-reset.html#" class="toolbar_item command_help help">?</a></span></div><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="gutter"><div class="line number1 index0 alt2">1</div><div class="line number2 index1 alt1">2</div><div class="line number3 index2 alt2">3</div><div class="line number4 index3 alt1">4</div><div class="line number5 index4 alt2">5</div><div class="line number6 index5 alt1">6</div><div class="line number7 index6 alt2">7</div><div class="line number8 index7 alt1">8</div><div class="line number9 index8 alt2">9</div><div class="line number10 index9 alt1">10</div><div class="line number11 index10 alt2">11</div><div class="line number12 index11 alt1">12</div><div class="line number13 index12 alt2">13</div><div class="line number14 index13 alt1">14</div><div class="line number15 index14 alt2">15</div><div class="line number16 index15 alt1">16</div><div class="line number17 index16 alt2">17</div><div class="line number18 index17 alt1">18</div><div class="line number19 index18 alt2">19</div><div class="line number20 index19 alt1">20</div><div class="line number21 index20 alt2">21</div><div class="line number22 index21 alt1">22</div><div class="line number23 index22 alt2">23</div><div class="line number24 index23 alt1">24</div><div class="line number25 index24 alt2">25</div><div class="line number26 index25 alt1">26</div><div class="line number27 index26 alt2">27</div><div class="line number28 index27 alt1">28</div><div class="line number29 index28 alt2">29</div><div class="line number30 index29 alt1">30</div><div class="line number31 index30 alt2">31</div><div class="line number32 index31 alt1">32</div><div class="line number33 index32 alt2">33</div><div class="line number34 index33 alt1">34</div><div class="line number35 index34 alt2">35</div><div class="line number36 index35 alt1">36</div><div class="line number37 index36 alt2">37</div><div class="line number38 index37 alt1">38</div><div class="line number39 index38 alt2">39</div><div class="line number40 index39 alt1">40</div><div class="line number41 index40 alt2">41</div><div class="line number42 index41 alt1">42</div><div class="line number43 index42 alt2">43</div><div class="line number44 index43 alt1">44</div><div class="line number45 index44 alt2">45</div><div class="line number46 index45 alt1">46</div><div class="line number47 index46 alt2">47</div><div class="line number48 index47 alt1">48</div><div class="line number49 index48 alt2">49</div><div class="line number50 index49 alt1">50</div><div class="line number51 index50 alt2">51</div><div class="line number52 index51 alt1">52</div><div class="line number53 index52 alt2">53</div><div class="line number54 index53 alt1">54</div><div class="line number55 index54 alt2">55</div><div class="line number56 index55 alt1">56</div><div class="line number57 index56 alt2">57</div><div class="line number58 index57 alt1">58</div><div class="line number59 index58 alt2">59</div><div class="line number60 index59 alt1">60</div><div class="line number61 index60 alt2">61</div><div class="line number62 index61 alt1">62</div><div class="line number63 index62 alt2">63</div><div class="line number64 index63 alt1">64</div><div class="line number65 index64 alt2">65</div><div class="line number66 index65 alt1">66</div><div class="line number67 index66 alt2">67</div><div class="line number68 index67 alt1">68</div><div class="line number69 index68 alt2">69</div><div class="line number70 index69 alt1">70</div><div class="line number71 index70 alt2">71</div><div class="line number72 index71 alt1">72</div><div class="line number73 index72 alt2">73</div><div class="line number74 index73 alt1">74</div><div class="line number75 index74 alt2">75</div><div class="line number76 index75 alt1">76</div><div class="line number77 index76 alt2">77</div><div class="line number78 index77 alt1">78</div><div class="line number79 index78 alt2">79</div><div class="line number80 index79 alt1">80</div><div class="line number81 index80 alt2">81</div><div class="line number82 index81 alt1">82</div><div class="line number83 index82 alt2">83</div><div class="line number84 index83 alt1">84</div><div class="line number85 index84 alt2">85</div><div class="line number86 index85 alt1">86</div><div class="line number87 index86 alt2">87</div><div class="line number88 index87 alt1">88</div><div class="line number89 index88 alt2">89</div><div class="line number90 index89 alt1">90</div><div class="line number91 index90 alt2">91</div><div class="line number92 index91 alt1">92</div><div class="line number93 index92 alt2">93</div><div class="line number94 index93 alt1">94</div><div class="line number95 index94 alt2">95</div><div class="line number96 index95 alt1">96</div><div class="line number97 index96 alt2">97</div><div class="line number98 index97 alt1">98</div><div class="line number99 index98 alt2">99</div><div class="line number100 index99 alt1">100</div><div class="line number101 index100 alt2">101</div><div class="line number102 index101 alt1">102</div><div class="line number103 index102 alt2">103</div><div class="line number104 index103 alt1">104</div><div class="line number105 index104 alt2">105</div><div class="line number106 index105 alt1">106</div><div class="line number107 index106 alt2">107</div><div class="line number108 index107 alt1">108</div><div class="line number109 index108 alt2">109</div><div class="line number110 index109 alt1">110</div><div class="line number111 index110 alt2">111</div><div class="line number112 index111 alt1">112</div><div class="line number113 index112 alt2">113</div><div class="line number114 index113 alt1">114</div><div class="line number115 index114 alt2">115</div><div class="line number116 index115 alt1">116</div><div class="line number117 index116 alt2">117</div><div class="line number118 index117 alt1">118</div><div class="line number119 index118 alt2">119</div><div class="line number120 index119 alt1">120</div><div class="line number121 index120 alt2">121</div><div class="line number122 index121 alt1">122</div><div class="line number123 index122 alt2">123</div><div class="line number124 index123 alt1">124</div><div class="line number125 index124 alt2">125</div><div class="line number126 index125 alt1">126</div><div class="line number127 index126 alt2">127</div><div class="line number128 index127 alt1">128</div><div class="line number129 index128 alt2">129</div><div class="line number130 index129 alt1">130</div><div class="line number131 index130 alt2">131</div><div class="line number132 index131 alt1">132</div></td><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="css comments">/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */</code></div><div class="line number2 index1 alt1"><code class="css plain">html {</code></div><div class="line number3 index2 alt2"><code class="css spaces">&nbsp;&nbsp;</code><code class="css keyword">line-height</code><code class="css plain">: </code><code class="css value">1.15</code><code class="css plain">;</code></div><div class="line number4 index3 alt1"><code class="css spaces">&nbsp;&nbsp;</code><code class="css plain">-webkit-text-size-adjust: </code><code class="css value">100%</code><code class="css plain">;</code></div><div class="line number5 index4 alt2"><code class="css plain">}</code></div><div class="line number6 index5 alt1"><code class="css plain">body {</code></div><div class="line number7 index6 alt2"><code class="css spaces">&nbsp;&nbsp;</code><code class="css keyword">margin</code><code class="css plain">: </code><code class="css value">0</code><code class="css plain">;</code></div><div class="line number8 index7 alt1"><code class="css plain">}</code></div><div class="line number9 index8 alt2"><code class="css plain">main {</code></div><div class="line number10 index9 alt1"><code class="css spaces">&nbsp;&nbsp;</code><code class="css keyword">display</code><code class="css plain">: </code><code class="css value">block</code><code class="css plain">;</code></div><div class="line number11 index10 alt2"><code class="css plain">}</code></div><div class="line number12 index11 alt1"><code class="css plain">h</code><code class="css value">1</code> <code class="css plain">{</code></div><div class="line number13 index12 alt2"><code class="css spaces">&nbsp;&nbsp;</code><code class="css keyword">font-size</code><code class="css plain">: </code><code class="css value">2em</code><code class="css plain">;</code></div><div class="line number14 index13 alt1"><code class="css spaces">&nbsp;&nbsp;</code><code class="css keyword">margin</code><code class="css plain">: </code><code class="css value">0.67em</code> <code class="css value">0</code><code class="css plain">;</code></div><div class="line number15 index14 alt2"><code class="css plain">}</code></div><div class="line number16 index15 alt1"><code class="css plain">hr {</code></div><div class="line number17 index16 alt2"><code class="css spaces">&nbsp;&nbsp;</code><code class="css plain">box-sizing: content-box;</code></div><div class="line number18 index17 alt1"><code class="css spaces">&nbsp;&nbsp;</code><code class="css keyword">height</code><code class="css plain">: </code><code class="css value">0</code><code class="css plain">;</code></div><div class="line number19 index18 alt2"><code class="css spaces">&nbsp;&nbsp;</code><code class="css keyword">overflow</code><code class="css plain">: </code><code class="css value">visible</code><code class="css plain">;</code></div><div class="line number20 index19 alt1"><code class="css plain">}</code></div><div class="line number21 index20 alt2"><code class="css value">pre</code> <code class="css plain">{</code></div><div class="line number22 index21 alt1"><code class="css spaces">&nbsp;&nbsp;</code><code class="css keyword">font-family</code><code class="css plain">: </code><code class="css color1">monospace</code><code class="css plain">, </code><code class="css color1">monospace</code><code class="css plain">;</code></div><div class="line number23 index22 alt2"><code class="css spaces">&nbsp;&nbsp;</code><code class="css keyword">font-size</code><code class="css plain">: </code><code class="css value">1em</code><code class="css plain">;</code></div><div class="line number24 index23 alt1"><code class="css plain">}</code></div><div class="line number25 index24 alt2"><code class="css plain">a {</code></div><div class="line number26 index25 alt1"><code class="css spaces">&nbsp;&nbsp;</code><code class="css keyword">background-color</code><code class="css plain">: </code><code class="css value">transparent</code><code class="css plain">;</code></div><div class="line number27 index26 alt2"><code class="css plain">}</code></div><div class="line number28 index27 alt1"><code class="css plain">abbr[title] {</code></div><div class="line number29 index28 alt2"><code class="css spaces">&nbsp;&nbsp;</code><code class="css keyword">border-bottom</code><code class="css plain">: </code><code class="css value">none</code><code class="css plain">;</code></div><div class="line number30 index29 alt1"><code class="css spaces">&nbsp;&nbsp;</code><code class="css keyword">text-decoration</code><code class="css plain">: </code><code class="css value">underline</code><code class="css plain">;</code></div><div class="line number31 index30 alt2"><code class="css spaces">&nbsp;&nbsp;</code><code class="css keyword">text-decoration</code><code class="css plain">: </code><code class="css value">underline</code> <code class="css value">dotted</code><code class="css plain">;</code></div><div class="line number32 index31 alt1"><code class="css plain">}</code></div><div class="line number33 index32 alt2"><code class="css plain">b,strong {</code></div><div class="line number34 index33 alt1"><code class="css spaces">&nbsp;&nbsp;</code><code class="css keyword">font-weight</code><code class="css plain">: </code><code class="css value">bolder</code><code class="css plain">;</code></div><div class="line number35 index34 alt2"><code class="css plain">}</code></div><div class="line number36 index35 alt1"><code class="css value">code</code><code class="css plain">,kbd,samp {</code></div><div class="line number37 index36 alt2"><code class="css spaces">&nbsp;&nbsp;</code><code class="css keyword">font-family</code><code class="css plain">: </code><code class="css color1">monospace</code><code class="css plain">, </code><code class="css color1">monospace</code><code class="css plain">;</code></div><div class="line number38 index37 alt1"><code class="css spaces">&nbsp;&nbsp;</code><code class="css keyword">font-size</code><code class="css plain">: </code><code class="css value">1em</code><code class="css plain">;</code></div><div class="line number39 index38 alt2"><code class="css plain">}</code></div><div class="line number40 index39 alt1"><code class="css value">small</code> <code class="css plain">{</code></div><div class="line number41 index40 alt2"><code class="css spaces">&nbsp;&nbsp;</code><code class="css keyword">font-size</code><code class="css plain">: </code><code class="css value">80%</code><code class="css plain">;</code></div><div class="line number42 index41 alt1"><code class="css plain">}</code></div><div class="line number43 index42 alt2"><code class="css value">sub</code><code class="css plain">,sup {</code></div><div class="line number44 index43 alt1"><code class="css spaces">&nbsp;&nbsp;</code><code class="css keyword">font-size</code><code class="css plain">: </code><code class="css value">75%</code><code class="css plain">;</code></div><div class="line number45 index44 alt2"><code class="css spaces">&nbsp;&nbsp;</code><code class="css keyword">line-height</code><code class="css plain">: </code><code class="css value">0</code><code class="css plain">;</code></div><div class="line number46 index45 alt1"><code class="css spaces">&nbsp;&nbsp;</code><code class="css keyword">position</code><code class="css plain">: </code><code class="css value">relative</code><code class="css plain">;</code></div><div class="line number47 index46 alt2"><code class="css spaces">&nbsp;&nbsp;</code><code class="css keyword">vertical-align</code><code class="css plain">: </code><code class="css value">baseline</code><code class="css plain">;</code></div><div class="line number48 index47 alt1"><code class="css plain">}</code></div><div class="line number49 index48 alt2"><code class="css value">sub</code> <code class="css plain">{</code></div><div class="line number50 index49 alt1"><code class="css spaces">&nbsp;&nbsp;</code><code class="css keyword">bottom</code><code class="css plain">: </code><code class="css value">-0.25em</code><code class="css plain">;</code></div><div class="line number51 index50 alt2"><code class="css plain">}</code></div><div class="line number52 index51 alt1"><code class="css plain">sup {</code></div><div class="line number53 index52 alt2"><code class="css spaces">&nbsp;&nbsp;</code><code class="css keyword">top</code><code class="css plain">: </code><code class="css value">-0.5em</code><code class="css plain">;</code></div><div class="line number54 index53 alt1"><code class="css plain">}</code></div><div class="line number55 index54 alt2"><code class="css plain">img {</code></div><div class="line number56 index55 alt1"><code class="css spaces">&nbsp;&nbsp;</code><code class="css keyword">border-style</code><code class="css plain">: </code><code class="css value">none</code><code class="css plain">;</code></div><div class="line number57 index56 alt2"><code class="css plain">}</code></div><div class="line number58 index57 alt1"><code class="css plain">button,input,optgroup,select,textarea {</code></div><div class="line number59 index58 alt2"><code class="css spaces">&nbsp;&nbsp;</code><code class="css keyword">font-family</code><code class="css plain">: inherit;</code></div><div class="line number60 index59 alt1"><code class="css spaces">&nbsp;&nbsp;</code><code class="css keyword">font-size</code><code class="css plain">: </code><code class="css value">100%</code><code class="css plain">;</code></div><div class="line number61 index60 alt2"><code class="css spaces">&nbsp;&nbsp;</code><code class="css keyword">line-height</code><code class="css plain">: </code><code class="css value">1.15</code><code class="css plain">;</code></div><div class="line number62 index61 alt1"><code class="css spaces">&nbsp;&nbsp;</code><code class="css keyword">margin</code><code class="css plain">: </code><code class="css value">0</code><code class="css plain">;</code></div><div class="line number63 index62 alt2"><code class="css plain">}</code></div><div class="line number64 index63 alt1"><code class="css plain">button,input {</code></div><div class="line number65 index64 alt2"><code class="css spaces">&nbsp;&nbsp;</code><code class="css keyword">overflow</code><code class="css plain">: </code><code class="css value">visible</code><code class="css plain">;</code></div><div class="line number66 index65 alt1"><code class="css plain">}</code></div><div class="line number67 index66 alt2"><code class="css plain">button,select {</code></div><div class="line number68 index67 alt1"><code class="css spaces">&nbsp;&nbsp;</code><code class="css keyword">text-transform</code><code class="css plain">: </code><code class="css value">none</code><code class="css plain">;</code></div><div class="line number69 index68 alt2"><code class="css plain">}</code></div><div class="line number70 index69 alt1"><code class="css plain">button,[type=</code><code class="css string">"button"</code><code class="css plain">],[type=</code><code class="css string">"reset"</code><code class="css plain">],[type=</code><code class="css string">"submit"</code><code class="css plain">] {</code></div><div class="line number71 index70 alt2"><code class="css spaces">&nbsp;&nbsp;</code><code class="css plain">-webkit-appearance: button;</code></div><div class="line number72 index71 alt1"><code class="css plain">}</code></div><div class="line number73 index72 alt2"><code class="css plain">button::-moz-focus-inner,</code></div><div class="line number74 index73 alt1"><code class="css plain">[type=</code><code class="css string">"button"</code><code class="css plain">]::-moz-focus-inner,</code></div><div class="line number75 index74 alt2"><code class="css plain">[type=</code><code class="css string">"reset"</code><code class="css plain">]::-moz-focus-inner,</code></div><div class="line number76 index75 alt1"><code class="css plain">[type=</code><code class="css string">"submit"</code><code class="css plain">]::-moz-focus-inner {</code></div><div class="line number77 index76 alt2"><code class="css spaces">&nbsp;&nbsp;</code><code class="css keyword">border-style</code><code class="css plain">: </code><code class="css value">none</code><code class="css plain">;</code></div><div class="line number78 index77 alt1"><code class="css spaces">&nbsp;&nbsp;</code><code class="css keyword">padding</code><code class="css plain">: </code><code class="css value">0</code><code class="css plain">;</code></div><div class="line number79 index78 alt2"><code class="css plain">}</code></div><div class="line number80 index79 alt1"><code class="css plain">button:-moz-focusring,</code></div><div class="line number81 index80 alt2"><code class="css plain">[type=</code><code class="css string">"button"</code><code class="css plain">]:-moz-focusring,</code></div><div class="line number82 index81 alt1"><code class="css plain">[type=</code><code class="css string">"reset"</code><code class="css plain">]:-moz-focusring,</code></div><div class="line number83 index82 alt2"><code class="css plain">[type=</code><code class="css string">"submit"</code><code class="css plain">]:-moz-focusring {</code></div><div class="line number84 index83 alt1"><code class="css spaces">&nbsp;&nbsp;</code><code class="css keyword">outline</code><code class="css plain">: </code><code class="css value">1px</code> <code class="css value">dotted</code> <code class="css plain">ButtonText;</code></div><div class="line number85 index84 alt2"><code class="css plain">}</code></div><div class="line number86 index85 alt1"><code class="css plain">fieldset {</code></div><div class="line number87 index86 alt2"><code class="css spaces">&nbsp;&nbsp;</code><code class="css keyword">padding</code><code class="css plain">: </code><code class="css value">0.35em</code> <code class="css value">0.75em</code> <code class="css value">0.625em</code><code class="css plain">;</code></div><div class="line number88 index87 alt1"><code class="css plain">}</code></div><div class="line number89 index88 alt2"><code class="css plain">legend {</code></div><div class="line number90 index89 alt1"><code class="css spaces">&nbsp;&nbsp;</code><code class="css plain">box-sizing: border-box;</code></div><div class="line number91 index90 alt2"><code class="css spaces">&nbsp;&nbsp;</code><code class="css keyword">color</code><code class="css plain">: inherit;</code></div><div class="line number92 index91 alt1"><code class="css spaces">&nbsp;&nbsp;</code><code class="css keyword">display</code><code class="css plain">: table;</code></div><div class="line number93 index92 alt2"><code class="css spaces">&nbsp;&nbsp;</code><code class="css keyword">max-width</code><code class="css plain">: </code><code class="css value">100%</code><code class="css plain">;</code></div><div class="line number94 index93 alt1"><code class="css spaces">&nbsp;&nbsp;</code><code class="css keyword">padding</code><code class="css plain">: </code><code class="css value">0</code><code class="css plain">;</code></div><div class="line number95 index94 alt2"><code class="css spaces">&nbsp;&nbsp;</code><code class="css keyword">white-space</code><code class="css plain">: </code><code class="css value">normal</code><code class="css plain">;</code></div><div class="line number96 index95 alt1"><code class="css plain">}</code></div><div class="line number97 index96 alt2"><code class="css plain">progress {</code></div><div class="line number98 index97 alt1"><code class="css spaces">&nbsp;&nbsp;</code><code class="css keyword">vertical-align</code><code class="css plain">: </code><code class="css value">baseline</code><code class="css plain">;</code></div><div class="line number99 index98 alt2"><code class="css plain">}</code></div><div class="line number100 index99 alt1"><code class="css plain">textarea {</code></div><div class="line number101 index100 alt2"><code class="css spaces">&nbsp;&nbsp;</code><code class="css keyword">overflow</code><code class="css plain">: </code><code class="css value">auto</code><code class="css plain">;</code></div><div class="line number102 index101 alt1"><code class="css plain">}</code></div><div class="line number103 index102 alt2"><code class="css plain">[type=</code><code class="css string">"checkbox"</code><code class="css plain">],[type=</code><code class="css string">"radio"</code><code class="css plain">] {</code></div><div class="line number104 index103 alt1"><code class="css spaces">&nbsp;&nbsp;</code><code class="css plain">box-sizing: border-box;</code></div><div class="line number105 index104 alt2"><code class="css spaces">&nbsp;&nbsp;</code><code class="css keyword">padding</code><code class="css plain">: </code><code class="css value">0</code><code class="css plain">;</code></div><div class="line number106 index105 alt1"><code class="css plain">}</code></div><div class="line number107 index106 alt2"><code class="css plain">[type=</code><code class="css string">"number"</code><code class="css plain">]::-webkit-inner-spin-button,[type=</code><code class="css string">"number"</code><code class="css plain">]::-webkit-outer-spin-button {</code></div><div class="line number108 index107 alt1"><code class="css spaces">&nbsp;&nbsp;</code><code class="css keyword">height</code><code class="css plain">: </code><code class="css value">auto</code><code class="css plain">;</code></div><div class="line number109 index108 alt2"><code class="css plain">}</code></div><div class="line number110 index109 alt1"><code class="css plain">[type=</code><code class="css string">"search"</code><code class="css plain">] {</code></div><div class="line number111 index110 alt2"><code class="css spaces">&nbsp;&nbsp;</code><code class="css plain">-webkit-appearance: textfield;</code></div><div class="line number112 index111 alt1"><code class="css spaces">&nbsp;&nbsp;</code><code class="css plain">outline-offset: </code><code class="css value">-2px</code><code class="css plain">;</code></div><div class="line number113 index112 alt2"><code class="css plain">}</code></div><div class="line number114 index113 alt1"><code class="css plain">[type=</code><code class="css string">"search"</code><code class="css plain">]::-webkit-search-decoration {</code></div><div class="line number115 index114 alt2"><code class="css spaces">&nbsp;&nbsp;</code><code class="css plain">-webkit-appearance: </code><code class="css value">none</code><code class="css plain">;</code></div><div class="line number116 index115 alt1"><code class="css plain">}</code></div><div class="line number117 index116 alt2"><code class="css plain">::-webkit-file-upload-button {</code></div><div class="line number118 index117 alt1"><code class="css spaces">&nbsp;&nbsp;</code><code class="css plain">-webkit-appearance: button;</code></div><div class="line number119 index118 alt2"><code class="css spaces">&nbsp;&nbsp;</code><code class="css keyword">font</code><code class="css plain">: inherit;</code></div><div class="line number120 index119 alt1"><code class="css plain">}</code></div><div class="line number121 index120 alt2"><code class="css plain">details {</code></div><div class="line number122 index121 alt1"><code class="css spaces">&nbsp;&nbsp;</code><code class="css keyword">display</code><code class="css plain">: </code><code class="css value">block</code><code class="css plain">;</code></div><div class="line number123 index122 alt2"><code class="css plain">}</code></div><div class="line number124 index123 alt1"><code class="css plain">summary {</code></div><div class="line number125 index124 alt2"><code class="css spaces">&nbsp;&nbsp;</code><code class="css keyword">display</code><code class="css plain">: </code><code class="css value">list-item</code><code class="css plain">;</code></div><div class="line number126 index125 alt1"><code class="css plain">}</code></div><div class="line number127 index126 alt2"><code class="css plain">template {</code></div><div class="line number128 index127 alt1"><code class="css spaces">&nbsp;&nbsp;</code><code class="css keyword">display</code><code class="css plain">: </code><code class="css value">none</code><code class="css plain">;</code></div><div class="line number129 index128 alt2"><code class="css plain">}</code></div><div class="line number130 index129 alt1"><code class="css plain">[</code><code class="css value">hidden</code><code class="css plain">] {</code></div><div class="line number131 index130 alt2"><code class="css spaces">&nbsp;&nbsp;</code><code class="css keyword">display</code><code class="css plain">: </code><code class="css value">none</code><code class="css plain">;</code></div><div class="line number132 index131 alt1"><code class="css plain">}</code></div></div></td></tr></tbody></table></div></div>
+
+<div class="categories-wdg widget"> 
+<ul> 
+		<li> <a href="https://xn----7sbbaqhlkm9ah9aiq.net/news-new/css-html/"><span class="name">CSS / HTML</span></a> </li>
+		<li> <a href="https://xn----7sbbaqhlkm9ah9aiq.net/news-new/frontend-frontend/"><span class="name">FrontEnd (ФронтЭнд)</span></a> </li>
+			
+</ul> 
+</div>
+
+
+<div class="b-support-likes">
+    <div class="b-support-likes__buttons-wrapper">
+        <strong class="b-support-likes__title">Помогла ли вам статья?</strong>
+        <div class="b-support-likes__buttons">
+            <a class="b-button b-button-yes"><i class="b-button-icon"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+<g>
+	<g>
+		<path d="M512,304c0-12.821-5.099-24.768-13.888-33.579c9.963-10.901,15.04-25.515,13.653-40.725
+			c-2.496-27.115-26.923-48.363-55.637-48.363H324.352c6.528-19.819,16.981-56.149,16.981-85.333c0-46.272-39.317-85.333-64-85.333
+			c-22.144,0-37.995,12.48-38.656,12.992c-2.539,2.027-4.011,5.099-4.011,8.341v72.341L173.205,237.44l-2.539,1.301v-4.075
+			c0-5.888-4.779-10.667-10.667-10.667H53.333C23.915,224,0,247.915,0,277.333V448c0,29.419,23.915,53.333,53.333,53.333h64
+			c23.061,0,42.773-14.72,50.197-35.264C185.28,475.2,209.173,480,224,480h195.819c23.232,0,43.563-15.659,48.341-37.248
+			c2.453-11.136,1.024-22.336-3.84-32.064c15.744-7.915,26.347-24.192,26.347-42.688c0-7.552-1.728-14.784-4.992-21.312
+			C501.419,338.752,512,322.496,512,304z M467.008,330.325c-4.117,0.491-7.595,3.285-8.917,7.232
+			c-1.301,3.947-0.213,8.277,2.816,11.136c5.419,5.099,8.427,11.968,8.427,19.307c0,13.461-10.176,24.768-23.637,26.325
+			c-4.117,0.491-7.595,3.285-8.917,7.232c-1.301,3.947-0.213,8.277,2.816,11.136c7.019,6.613,9.835,15.893,7.723,25.451
+			c-2.624,11.904-14.187,20.523-27.499,20.523H224c-17.323,0-46.379-8.128-56.448-18.219c-3.051-3.029-7.659-3.925-11.627-2.304
+			c-3.989,1.643-6.592,5.547-6.592,9.856c0,17.643-14.357,32-32,32h-64c-17.643,0-32-14.357-32-32V277.333c0-17.643,14.357-32,32-32
+			h96V256c0,3.691,1.92,7.125,5.077,9.088c3.115,1.877,7.04,2.069,10.368,0.448l21.333-10.667c2.155-1.067,3.883-2.859,4.907-5.056
+			l64-138.667c0.64-1.408,0.981-2.944,0.981-4.48V37.781C260.437,35.328,268.139,32,277.333,32C289.024,32,320,61.056,320,96
+			c0,37.547-20.437,91.669-20.629,92.203c-1.237,3.264-0.811,6.955,1.173,9.856c2.005,2.88,5.291,4.608,8.789,4.608h146.795
+			c17.792,0,32.896,12.736,34.389,28.992c1.131,12.16-4.715,23.723-15.189,30.187c-3.264,2.005-5.205,5.632-5.056,9.493
+			s2.368,7.317,5.781,9.088c9.024,4.587,14.613,13.632,14.613,23.573C490.667,317.461,480.491,328.768,467.008,330.325z"></path>
+	</g>
+</g>
+<g>
+	<g>
+		<path d="M160,245.333c-5.888,0-10.667,4.779-10.667,10.667v192c0,5.888,4.779,10.667,10.667,10.667s10.667-4.779,10.667-10.667
+			V256C170.667,250.112,165.888,245.333,160,245.333z"></path>
+	</g>
+</g>
+</svg></i>Да</a>
+			<a class="b-button b-button-no"><i class="b-button-icon"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512.012 512.012" style="enable-background:new 0 0 512.012 512.012;" xml:space="preserve">
+<g>
+	<g>
+		<path d="M498.133,241.585c8.768-8.811,13.867-20.757,13.867-33.579c0-18.496-10.581-34.752-26.325-42.688
+			c3.264-6.528,4.992-13.76,4.992-21.312c0-18.496-10.603-34.773-26.347-42.688c4.864-9.728,6.293-20.928,3.84-32.043
+			c-4.779-21.611-25.109-37.269-48.341-37.269H224c-14.827,0-38.72,4.8-56.469,13.931c-7.424-20.544-27.136-35.264-50.197-35.264
+			h-64C23.915,10.673,0,34.587,0,64.006v170.667c0,29.419,23.915,53.333,53.333,53.333H160c5.888,0,10.667-4.779,10.667-10.667
+			v-4.075l2.539,1.28l61.461,133.12v72.341c0,3.243,1.472,6.315,3.989,8.341c0.683,0.512,16.533,12.992,38.677,12.992
+			c24.683,0,64-39.061,64-85.333c0-29.184-10.453-65.515-16.981-85.333h131.776c28.715,0,53.141-21.248,55.659-48.363
+			C513.173,267.099,508.096,252.486,498.133,241.585z M475.328,250.182c10.475,6.464,16.32,18.027,15.189,30.187
+			c-1.493,16.235-16.597,28.971-34.389,28.971H309.333c-3.499,0-6.784,1.728-8.789,4.608c-1.984,2.901-2.432,6.592-1.173,9.856
+			c0.192,0.533,20.629,54.656,20.629,92.203c0,34.944-30.976,64-42.667,64c-9.195,0-16.917-3.349-21.333-5.781v-68.885
+			c0-1.536-0.341-3.072-1.003-4.48l-64-138.667c-1.003-2.176-2.731-3.968-4.907-5.056l-21.333-10.667
+			c-3.307-1.664-7.253-1.451-10.368,0.448c-3.136,1.963-5.056,5.397-5.056,9.088v10.667h-96c-17.643,0-32-14.357-32-32V64.006
+			c0-17.643,14.357-32,32-32h64c17.643,0,32,14.357,32,32c0,4.309,2.603,8.213,6.592,9.856c3.968,1.621,8.555,0.725,11.627-2.304
+			C177.621,61.467,206.677,53.339,224,53.339h195.819c13.312,0,24.875,8.619,27.499,20.565c2.112,9.536-0.704,18.795-7.723,25.429
+			c-3.029,2.837-4.139,7.168-2.816,11.136c1.323,3.947,4.8,6.763,8.917,7.232c13.461,1.536,23.637,12.843,23.637,26.304
+			c0,7.339-3.008,14.208-8.405,19.328c-3.029,2.837-4.139,7.168-2.816,11.136c1.323,3.947,4.8,6.763,8.917,7.232
+			c13.461,1.536,23.637,12.843,23.637,26.304c0,9.941-5.589,18.987-14.613,23.595c-3.413,1.771-5.611,5.227-5.781,9.088
+			C470.123,244.529,472.064,248.155,475.328,250.182z"></path>
+	</g>
+</g>
+<g>
+	<g>
+		<path d="M160,53.339c-5.888,0-10.667,4.779-10.667,10.667v192c0,5.888,4.779,10.667,10.667,10.667s10.667-4.779,10.667-10.667
+			v-192C170.667,58.118,165.888,53.339,160,53.339z"></path>
+	</g>
+</g>
+</svg></i>Нет</a>        
+		</div>
+    </div>
+    <div class="b-support-likes__stats">
+        <span class="b-support-likes__stats-number l-margin_right-small">350</span>
+        <span class="b-support-likes__stats-text">раз уже помогла</span>
+    </div>
+</div>
+
+<div class="share-options"> 
+	<a target="_blank" class="icon icon-Facebook-blue transp btn wBorders" href="https://xn----7sbbaqhlkm9ah9aiq.net/news-new/sbros-css-stiley-css-reset.html#"> <span class="border top wow slideInRight" data-wow-delay="0s" data-wow-duration="1s"></span> <span class="border bottom wow slideInLeft" data-wow-delay="0s" data-wow-duration="1s"></span> <span class="border left wow slideInUp" data-wow-delay="0s" data-wow-duration="1s"></span> <span class="border right wow slideInDown" data-wow-delay="0s" data-wow-duration="1s"></span> </a> 
+	<a target="_blank" class="icon icon-Twitter-blue transp btn wBorders" href="https://xn----7sbbaqhlkm9ah9aiq.net/news-new/sbros-css-stiley-css-reset.html#"> <span class="border top wow slideInRight" data-wow-delay="0s" data-wow-duration="1s"></span> <span class="border bottom wow slideInLeft" data-wow-delay="0s" data-wow-duration="1s"></span> <span class="border left wow slideInUp" data-wow-delay="0s" data-wow-duration="1s"></span> <span class="border right wow slideInDown" data-wow-delay="0s" data-wow-duration="1s"></span> </a> 
+	<a target="_blank" class="icon icon-Google-blue transp btn wBorders" href="https://xn----7sbbaqhlkm9ah9aiq.net/news-new/sbros-css-stiley-css-reset.html#"> <span class="border top wow slideInRight" data-wow-delay="0s" data-wow-duration="1s"></span> <span class="border bottom wow slideInLeft" data-wow-delay="0s" data-wow-duration="1s"></span> <span class="border left wow slideInUp" data-wow-delay="0s" data-wow-duration="1s"></span> <span class="border right wow slideInDown" data-wow-delay="0s" data-wow-duration="1s"></span> </a> 
+</div>
+
+
+<span class="reviews-name">Комментарии:</span> <span class="reviews-count">(0)</span>
+				
+	<button class="button expanded large secondary iconized ripple-effect flat margin-top-1 review-add" type="button">
+	<svg class="icon"><use xlink:href="/images/sprite-icon.svg#icon-star"></use></svg>Написать комментарий</button>
+
+
+
+
+<div class="pagination clearfix"> 
+	<a class="next transp btn wBorders" href="https://xn----7sbbaqhlkm9ah9aiq.net/news-new/nomera-telefona-na-vashem-sayte.html"> <span class="wrapper">Следующий блог</span> <span class="border top wow slideInRight" data-wow-delay="0s" data-wow-duration="1s"></span> <span class="border bottom wow slideInLeft" data-wow-delay="0s" data-wow-duration="1s"></span> <span class="border left wow slideInUp" data-wow-delay="0s" data-wow-duration="1s"></span> <span class="border right wow slideInDown" data-wow-delay="0s" data-wow-duration="1s"></span> </a> 
+</div> 
+
+</article> 
+
+
+		
+		<div class="categories-wdg widget"> 
+		<h3 class="widget-title">КАТЕГОРИИ</h3> 
+		<ul> 
+									<li> <a href="https://xn----7sbbaqhlkm9ah9aiq.net/razrabotka-internet-proektov/sozdanie-internet-magazina/"><span class="name">Создание Интернет магазина</span></a> </li>
+									<li> <a href="https://xn----7sbbaqhlkm9ah9aiq.net/razrabotka-internet-proektov/sozdanie-korporativnogo-sayta/"><span class="name">Создание корпоративного сайта</span></a> </li>
+									<li> <a href="https://xn----7sbbaqhlkm9ah9aiq.net/razrabotka-internet-proektov/sozdanie-sayta-kataloga/"><span class="name">Создание сайта каталога</span></a> </li>
+									<li> <a href="https://xn----7sbbaqhlkm9ah9aiq.net/razrabotka-internet-proektov/sozdanie-sayta-vizitki/"><span class="name">Создание сайта визитки</span></a> </li>
+									<li> <a href="https://xn----7sbbaqhlkm9ah9aiq.net/razrabotka-internet-proektov/sazdanie-landing-page/"><span class="name">Создание Landing page</span></a> </li>
+									<li> <a href="https://xn----7sbbaqhlkm9ah9aiq.net/razrabotka-internet-proektov/sozdanie-eksklyuzivnogo-proekta/"><span class="name">Создание эксклюзивного проекта</span></a> </li>
+									<li> <a href="https://xn----7sbbaqhlkm9ah9aiq.net/razrabotka-internet-proektov/sozdanie-sayta-dlya-dropshippinga/"><span class="name">Создание сайта для дропшиппинга</span></a> </li>
+									<li> <a href="https://xn----7sbbaqhlkm9ah9aiq.net/razrabotka-internet-proektov/sozdanie-sayta-dlya-prodagi/"><span class="name">Создание сайта для продажи</span></a> </li>
+									<li> <a href="https://xn----7sbbaqhlkm9ah9aiq.net/razrabotka-internet-proektov/sozdanie-novostnogo-sayta/"><span class="name">Создание новостного сайта</span></a> </li>
+									<li> <a href="https://xn----7sbbaqhlkm9ah9aiq.net/razrabotka-internet-proektov/sozdanie-sayta-dlya-dostavki-edi/"><span class="name">Создание сайта для доставки еды</span></a> </li>
+									<li> <a href="https://xn----7sbbaqhlkm9ah9aiq.net/razrabotka-internet-proektov/sozdanie-sayta-dlya-stroitelnoy-kompanii/"><span class="name">Создание сайта для строительной компании</span></a> </li>
+									<li> <a href="https://xn----7sbbaqhlkm9ah9aiq.net/razrabotka-internet-proektov/sozdanie-sayta-dlya-yuridicheskoy-firmi/"><span class="name">Создание сайта для юридической фирмы</span></a> </li>
+									<li> <a href="https://xn----7sbbaqhlkm9ah9aiq.net/razrabotka-internet-proektov/sozdanie-sayta-dlya-agentstva-nedvigimosti/"><span class="name">Создание сайта для агентства недвижимости</span></a> </li>
+									<li> <a href="https://xn----7sbbaqhlkm9ah9aiq.net/razrabotka-internet-proektov/sozdanie-sayta-dlya-salona-krasoti/"><span class="name">Создание сайта для салона красоты</span></a> </li>
+									<li> <a href="https://xn----7sbbaqhlkm9ah9aiq.net/razrabotka-internet-proektov/sozdanie-sayta-mebeli/"><span class="name">Создание сайта мебели</span></a> </li>
+									<li> <a href="https://xn----7sbbaqhlkm9ah9aiq.net/razrabotka-internet-proektov/sozdanie-sayta-santehniki/"><span class="name">Создание сайта сантехники</span></a> </li>
+									<li> <a href="https://xn----7sbbaqhlkm9ah9aiq.net/razrabotka-internet-proektov/sozdanie-internet-magazina-kofe-i-chaya/"><span class="name">Создание интернет-магазина кофе и чая</span></a> </li>
+									<li> <a href="https://xn----7sbbaqhlkm9ah9aiq.net/razrabotka-internet-proektov/sozdanie-internet-magazina-odegdi/"><span class="name">Создание интернет-магазина одежды</span></a> </li>
+									<li> <a href="https://xn----7sbbaqhlkm9ah9aiq.net/razrabotka-internet-proektov/sozdanie-internet-magazina-kosmetiki/"><span class="name">Создание интернет-магазина косметики</span></a> </li>
+									<li> <a href="https://xn----7sbbaqhlkm9ah9aiq.net/razrabotka-internet-proektov/sozdanie-internet-magazina-konditera/"><span class="name">Создание интернет-магазина кондитера</span></a> </li>
+									<li> <a href="https://xn----7sbbaqhlkm9ah9aiq.net/razrabotka-internet-proektov/sozdanie-internet-magazina-parfyumerii/"><span class="name">Создание интернет-магазина парфюмерии</span></a> </li>
+									<li> <a href="https://xn----7sbbaqhlkm9ah9aiq.net/razrabotka-internet-proektov/sozdanie-internet-magazina-igrushek/"><span class="name">Создание интернет-магазина игрушек</span></a> </li>
+									<li> <a href="https://xn----7sbbaqhlkm9ah9aiq.net/razrabotka-internet-proektov/sozdanie-internet-magazina-posudi/"><span class="name">Создание интернет-магазина посуды</span></a> </li>
+									<li> <a href="https://xn----7sbbaqhlkm9ah9aiq.net/razrabotka-internet-proektov/sozdanie-internet-magazina-elektroniki/"><span class="name">Создание интернет-магазина электроники</span></a> </li>
+									<li> <a href="https://xn----7sbbaqhlkm9ah9aiq.net/razrabotka-internet-proektov/sozdanie-internet-magazina-stroitelnih-materialov/"><span class="name">Создание интернет-магазина строительных материалов</span></a> </li>
+									<li> <a href="https://xn----7sbbaqhlkm9ah9aiq.net/razrabotka-internet-proektov/sozdanie-internet-magazina-intimnih-tovarov/"><span class="name">Создание интернет-магазина интимных товаров</span></a> </li>
+									<li> <a href="https://xn----7sbbaqhlkm9ah9aiq.net/razrabotka-internet-proektov/sozdanie-internet-magazina-sportivnih-tovarov/"><span class="name">Создание интернет-магазина спортивных товаров</span></a> </li>
+									<li> <a href="https://xn----7sbbaqhlkm9ah9aiq.net/razrabotka-internet-proektov/sozdanie-sayta-dlya-turagentstva/"><span class="name">Создание сайта для турагентства</span></a> </li>
+									<li> <a href="https://xn----7sbbaqhlkm9ah9aiq.net/razrabotka-internet-proektov/razrabotka-sayta-po-trudoustroystvu/"><span class="name">Разработка сайта по трудоустройству</span></a> </li>
+									<li> <a href="https://xn----7sbbaqhlkm9ah9aiq.net/razrabotka-internet-proektov/sozdanie-sayta-dlya-hosting-kompanii/"><span class="name">Создание сайта для хостинг компании</span></a> </li>
+									<li> <a href="https://xn----7sbbaqhlkm9ah9aiq.net/razrabotka-internet-proektov/sozdanie-sayta-dlya-psihologa/"><span class="name">Создание сайта для психолога</span></a> </li>
+									<li> <a href="https://xn----7sbbaqhlkm9ah9aiq.net/razrabotka-internet-proektov/sozdanie-sayta-dlya-gos-organizatsii/"><span class="name">Создание сайта для гос. организации</span></a> </li>
+									<li> <a href="https://xn----7sbbaqhlkm9ah9aiq.net/razrabotka-internet-proektov/sozdanie-sayta-stomatologicheskoy-kliniki/"><span class="name">Создание сайта для стоматологии</span></a> </li>
+									<li> <a href="https://xn----7sbbaqhlkm9ah9aiq.net/razrabotka-internet-proektov/sozdanie-sayta-dlya-ukrainskoy-pravoslavnoy-tserkvi/"><span class="name">Создание сайта для украинской православной церкви</span></a> </li>
+									<li> <a href="https://xn----7sbbaqhlkm9ah9aiq.net/razrabotka-internet-proektov/sozdanie-internet-magazina-dlya-prodagi-mugskoy-i-genskoy-obuvi/"><span class="name">Создание интернет-магазина мужской и женской обуви</span></a> </li>
+									<li> <a href="https://xn----7sbbaqhlkm9ah9aiq.net/razrabotka-internet-proektov/sozdanie-internet-magazina-dlya-prodagi-sumok-i-chemodanov/"><span class="name">Создание интернет-магазина сумок и чемоданов</span></a> </li>
+									<li> <a href="https://xn----7sbbaqhlkm9ah9aiq.net/razrabotka-internet-proektov/razrabotka-internet-magazina-po-prodage-udobreniy-i-semyan/"><span class="name">Разработка интернет-магазина удобрений и семян</span></a> </li>
+									<li> <a href="https://xn----7sbbaqhlkm9ah9aiq.net/razrabotka-internet-proektov/razrabotka-sayta-po-provedeniyu-onlayn-seminarov/"><span class="name">Разработка сайта по проведению онлайн семинаров</span></a> </li>
+									<li> <a href="https://xn----7sbbaqhlkm9ah9aiq.net/razrabotka-internet-proektov/sozdanie-sayta-po-arende-avtobusov/"><span class="name">Создание сайта по аренде автобусов</span></a> </li>
+									<li> <a href="https://xn----7sbbaqhlkm9ah9aiq.net/razrabotka-internet-proektov/sozdanie-sayta-po-remontu-tehniki/"><span class="name">Создание сайта по ремонту техники</span></a> </li>
+									<li> <a href="https://xn----7sbbaqhlkm9ah9aiq.net/razrabotka-internet-proektov/sozdanie-sayta-po-izdeliyam-iz-kamnya-i-mramora/"><span class="name">Создание сайта по изделиям из камня и мрамора</span></a> </li>
+									<li> <a href="https://xn----7sbbaqhlkm9ah9aiq.net/razrabotka-internet-proektov/izgotovlenie-internet-magazina-po-prodage-meditsinskogo-oborudovaniya/"><span class="name">Изготовление магазина медицинского оборудования</span></a> </li>
+									<li> <a href="https://xn----7sbbaqhlkm9ah9aiq.net/razrabotka-internet-proektov/izgotovlenie-sayta-dlya-uchitelya-ili-repetitora/"><span class="name">Изготовление сайта для учителя или репетитора</span></a> </li>
+									<li> <a href="https://xn----7sbbaqhlkm9ah9aiq.net/razrabotka-internet-proektov/izgotovlenie-sayta-dlya-kafe-ili-restorana/"><span class="name">Изготовление сайта для кафе или ресторана</span></a> </li>
+									<li> <a href="https://xn----7sbbaqhlkm9ah9aiq.net/razrabotka-internet-proektov/razrabotka-sayta-dlya-gostinitsi-otelya/"><span class="name">Разработка сайта для гостиницы, отеля</span></a> </li>
+									<li> <a href="https://xn----7sbbaqhlkm9ah9aiq.net/razrabotka-internet-proektov/sozdanie-sayta-dlya-fotografa/"><span class="name">Создание сайта для фотографа</span></a> </li>
+									<li> <a href="https://xn----7sbbaqhlkm9ah9aiq.net/razrabotka-internet-proektov/sozdanie-internet-magazina-apteki/"><span class="name">Создание интернет-магазина аптеки</span></a> </li>
+									<li> <a href="https://xn----7sbbaqhlkm9ah9aiq.net/razrabotka-internet-proektov/proektirovanie-sayta-dlya-distantsionnogo-obucheniya/"><span class="name">Проектирование сайта для дистанционного обучения</span></a> </li>
+									<li> <a href="https://xn----7sbbaqhlkm9ah9aiq.net/razrabotka-internet-proektov/sozdanie-internet-magazina-tovarov-dlya-givotnih/"><span class="name">Интернет-магазин товаров для животных</span></a> </li>
+									<li> <a href="https://xn----7sbbaqhlkm9ah9aiq.net/razrabotka-internet-proektov/sozdanie-sayta-dlya-tsvetochnogo-magazina/"><span class="name">Создание сайта для цветочного магазина</span></a> </li>
+									<li> <a href="https://xn----7sbbaqhlkm9ah9aiq.net/razrabotka-internet-proektov/izgotovlenie-sayta-vorot-i-ogragdeniy/"><span class="name">Изготовление сайта ворот и ограждений</span></a> </li>
+									<li> <a href="https://xn----7sbbaqhlkm9ah9aiq.net/razrabotka-internet-proektov/sozdanie-sayta-dlya-prodagi-tovarov/"><span class="name">Создание сайта для продажи товаров</span></a> </li>
+						
+		</ul> 
+	</div> 
+		
+	</div> 	
+
+</div>
+</div>
+
+<!-- newsrnd/ancient --><!--
+[name: Newsrnd]
+[type: Статьи]
+-->
+<div class="section bg-white" id="latest-entries">
+	<div class="container clearfix">
+		<h2 class="main-title align-center wow fadeIn" data-wow-delay="0.3s">Читайте также</h2>
+		<div class="blog-entries constructor-template" data-category-id="55" data-parent_id="0" data-template-type="grid" data-template-name="newsnew"> 
+			<div class="clearfix">
+																<div class="blog-entry clearfix blog-entry-top">
+					<article>
+						<figure class="wow fadeIn" data-wow-delay="0.5s">
+							<a href="https://xn----7sbbaqhlkm9ah9aiq.net/news-new/krasivoe-oformlenie-ssilok-na-css-vnutri-teksta.html" class="blog-image"><img class="lazy" data-src="https://xn----7sbbaqhlkm9ah9aiq.net/images/newsnew/newsnew/effekt-links-small.jpg" alt="Красивое оформление ссылок на CSS внутри текста"></a>
+						</figure>
+						<div class="wrapper wow fadeIn" data-wow-delay="0.8s"> 
+							<a href="https://xn----7sbbaqhlkm9ah9aiq.net/news-new/krasivoe-oformlenie-ssilok-na-css-vnutri-teksta.html"><h3>Красивое оформление ссылок на CSS внутри текста</h3></a> 
+																											</div>
+					</article>
+				</div>
+												<div class="blog-entry clearfix blog-entry-top">
+					<article>
+						<figure class="wow fadeIn" data-wow-delay="0.5s">
+							<a href="https://xn----7sbbaqhlkm9ah9aiq.net/news-new/skolko-stoit-otkrit-internet-magazin-v-ukraine.html" class="blog-image"><img class="lazy" data-src="https://xn----7sbbaqhlkm9ah9aiq.net/images/newsnew/newsnew/maxresdefault-small.jpg" alt="Сколько стоит открыть интернет-магазин в Украине"></a>
+						</figure>
+						<div class="wrapper wow fadeIn" data-wow-delay="0.8s"> 
+							<a href="https://xn----7sbbaqhlkm9ah9aiq.net/news-new/skolko-stoit-otkrit-internet-magazin-v-ukraine.html"><h3>Сколько стоит открыть интернет-магазин в Украине</h3></a> 
+																											</div>
+					</article>
+				</div>
+												<div class="blog-entry clearfix blog-entry-top">
+					<article>
+						<figure class="wow fadeIn" data-wow-delay="0.5s">
+							<a href="https://xn----7sbbaqhlkm9ah9aiq.net/news-new/bezopasnost-saytov-nashey-kompanii.html" class="blog-image"><img class="lazy" data-src="https://xn----7sbbaqhlkm9ah9aiq.net/images/newsnew/newsnew/security-abcname-small.jpg" alt="Безопасность сайтов нашей компании"></a>
+						</figure>
+						<div class="wrapper wow fadeIn" data-wow-delay="0.8s"> 
+							<a href="https://xn----7sbbaqhlkm9ah9aiq.net/news-new/bezopasnost-saytov-nashey-kompanii.html"><h3>Безопасность сайтов нашей компании</h3></a> 
+																											</div>
+					</article>
+				</div>
+												<div class="blog-entry clearfix blog-entry-top">
+					<article>
+						<figure class="wow fadeIn" data-wow-delay="0.5s">
+							<a href="https://xn----7sbbaqhlkm9ah9aiq.net/news-new/vertikalniy-spisok-sobitiy-na-css.html" class="blog-image"><img class="lazy" data-src="https://xn----7sbbaqhlkm9ah9aiq.net/images/newsnew/newsnew/create-timeline-5-small.jpg" alt="Вертикальный список событий на CSS"></a>
+						</figure>
+						<div class="wrapper wow fadeIn" data-wow-delay="0.8s"> 
+							<a href="https://xn----7sbbaqhlkm9ah9aiq.net/news-new/vertikalniy-spisok-sobitiy-na-css.html"><h3>Вертикальный список событий на CSS</h3></a> 
+																											</div>
+					</article>
+				</div>
+												<div class="blog-entry clearfix blog-entry-top">
+					<article>
+						<figure class="wow fadeIn" data-wow-delay="0.5s">
+							<a href="https://xn----7sbbaqhlkm9ah9aiq.net/news-new/27.html" class="blog-image"><img class="lazy" data-src="https://xn----7sbbaqhlkm9ah9aiq.net/images/newsnew/newsnew/blog-small.jpg" alt="Лучшие способы превратить блог в успешный онлайн-бизнес"></a>
+						</figure>
+						<div class="wrapper wow fadeIn" data-wow-delay="0.8s"> 
+							<a href="https://xn----7sbbaqhlkm9ah9aiq.net/news-new/27.html"><h3>Лучшие способы превратить блог в успешный онлайн-бизнес</h3></a> 
+																											</div>
+					</article>
+				</div>
+												<div class="blog-entry clearfix blog-entry-top">
+					<article>
+						<figure class="wow fadeIn" data-wow-delay="0.5s">
+							<a href="https://xn----7sbbaqhlkm9ah9aiq.net/news-new/css-animirovannie-oblaka.html" class="blog-image"><img class="lazy" data-src="https://xn----7sbbaqhlkm9ah9aiq.net/images/newsnew/newsnew/kuchevye-oblaka-small.jpg" alt="CSS анимированные облака"></a>
+						</figure>
+						<div class="wrapper wow fadeIn" data-wow-delay="0.8s"> 
+							<a href="https://xn----7sbbaqhlkm9ah9aiq.net/news-new/css-animirovannie-oblaka.html"><h3>CSS анимированные облака</h3></a> 
+																											</div>
+					</article>
+				</div>
+								  
+			</div>
+		</div>
+	</div>
+</div><!-- micromarking/ancient --><!--
+[name: Micromarking]
+[type: SEO] 
+[mtype: WebSite,Organization,BreadcrumbList]
+-->
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "url": "https://xn----7sbbaqhlkm9ah9aiq.net/news-new/sbros-css-stiley-css-reset.html",
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://xn----7sbbaqhlkm9ah9aiq.net/?search={search_term_string}",
+            "query-input": "required name=search_term_string"
+        }
+    }
+</script>
+
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "url": "https://xn----7sbbaqhlkm9ah9aiq.net/news-new/sbros-css-stiley-css-reset.html",
+        "logo": "https://xn----7sbbaqhlkm9ah9aiq.net/images/logo-dark.png"
+        		, "contactPoint": [
+					                        {
+                            "@type": "ContactPoint",
+                            "telephone": "+38 096 662 27 41",
+                            "contactType": "customer service"
+                        }
+						,
+					                        {
+                            "@type": "ContactPoint",
+                            "telephone": "+38 063 482 32 00",
+                            "contactType": "customer service"
+                        }
+																
+                    ]
+				        , "sameAs": ["https://www.youtube.com/channel/UC0FiM_oGRSdx0YO8Mlr3iUg"]
+		    }
+</script>
+
+
+ 
+<script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+															{
+			"@type": "ListItem",
+			"position": 1,
+			"item":
+				{
+					"@id": "https://xn----7sbbaqhlkm9ah9aiq.net/",
+					"name": "Cоздание сайта"
+				}
+			} 
+						,
+												{
+			"@type": "ListItem",
+			"position": 2,
+			"item":
+				{
+					"@id": "https://xn----7sbbaqhlkm9ah9aiq.net/news-new/",
+					"name": "Блог"
+				}
+			} 
+						,
+												{
+			"@type": "ListItem",
+			"position": 3,
+			"item":
+				{
+					"@id": "https://xn----7sbbaqhlkm9ah9aiq.net/news-new/sbros-css-stiley-css-reset.html",
+					"name": "Сброс CSS стилей (CSS reset)"
+				}
+			}  
+														]
+    }
+</script>
+
+
+<!-- optimization/ancient --><!-- [name: Мета данные] [type: SEO оптимизация] -->
+<div class="container clearfix metadata constructor-template" data-category-id="55" data-template-type="form" data-template-name="optimization">
+	</div>
+    </div>
+</main>
+
+<div style="display: none" id="list-slogans">
+    <div class="active"><strong>STUNNING</strong> WEB DESIGN</div>
+    <div><strong>LOREM</strong> IPSUM</div>
+</div>
+
+<footer role="contentinfo" id="footer">
+	<div id="block_3"><!-- [block: block_3] -->
+	<!-- footernew/ancient --><!--
+[name: footernew]
+-->
+<div class="container clearfix">
+	<div class="info" itemscope="" itemtype="https://schema.org/Organization">
+		<div class="col-1_3" itemprop="address" itemscope="" itemtype="https://schema.org/PostalAddress"> <img itemprop="image" class="aligncenter img-responsive lazy" data-src="/images/icon-Footer-Address.png" width="48" height="48" alt="Адрес">
+			<h4 class="title" itemprop="name">Адрес</h4>
+			<div itemprop="streetAddress" class="constructor-template" data-category-id="55" data-template-type="template-interface" data-template-name="footernew" data-template-id="1">	
+			10014, Житомир, улица Театральная 7			</div>
+		</div>
+		<div class="col-1_3"> <img itemprop="image" class="aligncenter img-responsive lazy" data-src="/images/icon-Footer-Phone.png" width="48" height="48" alt="Телефон">
+			<h4 class="title" itemprop="name">Телефон</h4> <span itemprop="telephone" class="alt-font constructor-template" data-category-id="55" data-template-type="template-interface" data-template-name="footernew" data-template-id="2">
+			<a href="tel:+380966622741">(096) 662-27-41</a><br><a href="tel:+380634823200">(063) 482-32-00</a>						</span> 
+		</div>
+		<div class="col-1_3"> <img class="aligncenter img-responsive lazy" data-src="/images/icon-Footer-Email.png" width="48" height="48" alt="E-mail">
+		<h4 class="title">Email</h4> 
+		<a href="mailto:info@abcname.net" itemprop="email">info@abcname.net</a>		
+		</div>
+	</div>
+	
+	<ul class="breadcrumbs" xmlns="https://www.w3.org/1999/xhtml" xmlns:v="https://rdf.data-vocabulary.org/#">
+	
+              <li itemprop="itemListElement" itemscope="" itemtype="https://schema.org/ListItem">
+      <a itemprop="item" title="Главная" href="https://xn----7sbbaqhlkm9ah9aiq.net/">
+        <span itemprop="name">Главная</span>
+      </a>
+	  <meta itemprop="position" content="1">
+    </li>
+        
+    
+              <li itemprop="itemListElement" itemscope="" itemtype="https://schema.org/ListItem">
+      <a itemprop="item" title="Блог" href="https://xn----7sbbaqhlkm9ah9aiq.net/news-new/">
+        <span itemprop="name">Блог</span>
+      </a>
+	  <meta itemprop="position" content="2">
+    </li>
+        
+    
+        	</ul>
+	
+	<div class="social-media constructor-template" data-category-id="55" data-template-type="template-interface" data-template-name="footernew" data-template-id="1">
+				<a href="viber://chat?number=%2B380634823200" title="viber"><img src="./CSS reset _files/viber.svg" width="42" height="42"></a>
+		<a href="https://telegram.me/ABCnameAndrey" title="telegram"><img src="./CSS reset _files/tele.svg" width="42" height="42"></a>
+		<a href="https://wa.me/380634823200?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5.%20%D0%92%D0%BE%D0%BF%D1%80%D0%BE%D1%81%20%D0%BF%D0%BE%20%D0%BF%D0%BE%D0%B2%D0%BE%D0%B4%D1%83%20%D1%81%D0%B0%D0%B9%D1%82%D0%B0." title="whatsapp"><img src="./CSS reset _files/whatsapp.svg" width="40" height="40"></a>
+	</div> 
+	 
+	<div class="langs">
+			
+								<span class="active"><a href="https://xn----7sbbaqhlkm9ah9aiq.net/">Русский</a></span>
+									
+		<span class=""><a href="https://xn----7sbbaqhlkm9ah9aiq.net/ua/">Українська</a></span>
+							
+	</div>
+		<small id="copyright">© <span class="alt-font">2007-2021</span> Все права защищены.</small> 
+</div>
+
+<div id="water-effect">
+	<canvas id="water-spring" style="user-select: none; touch-action: none; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);" width="1903" height="550"></canvas>
+</div><!-- [name: Счетчики] [type: SEO оптимизация]-->
+<div style="display: none;">
+
+<!-- hit.ua -->
+<a href="https://hit.ua/?x=52141" target="_blank">
+<script language="javascript" type="text/javascript"><!--
+Cd=document;Cr="&"+Math.random();Cp="&s=1";
+Cd.cookie="b=b";if(Cd.cookie)Cp+="&c=1";
+Cp+="&t="+(new Date()).getTimezoneOffset();
+if(self!=top)Cp+="&f=1";
+//--></script>
+<script language="javascript1.1" type="text/javascript"><!--
+if(navigator.javaEnabled())Cp+="&j=1";
+//--></script>
+<script language="javascript1.2" type="text/javascript"><!--
+if(typeof(screen)!='undefined')Cp+="&w="+screen.width+"&h="+
+screen.height+"&d="+(screen.colorDepth?screen.colorDepth:screen.pixelDepth);
+//--></script>
+<script language="javascript" type="text/javascript"><!--
+Cd.write("<img src='//c.hit.ua/hit?i=52141&g=0&x=4"+Cp+Cr+
+"&r="+escape(Cd.referrer)+"&u="+escape(window.location.href)+
+"' border='0' width='88' height='15' "+
+"alt='hit.ua: посетителей за сегодня' title='hit.ua: посетителей за сегодня'/>");
+//--></script><img src="./CSS reset _files/hit" border="0" width="88" height="15" alt="hit.ua: посетителей за сегодня" title="hit.ua: посетителей за сегодня">
+<noscript>
+<img src='//c.hit.ua/hit?i=52141&amp;g=0&amp;x=4' border='0' width='88' height='15' alt='hit.ua: посетителей за сегодня' title='hit.ua: посетителей за сегодня'/>
+</noscript></a>
+<!-- / hit.ua -->
+
+
+<!--LiveInternet counter--><script type="text/javascript">
+document.write("<a href='//www.liveinternet.ru/click' "+
+"target=_blank><img src='//counter.yadro.ru/hit?t52.6;r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";h"+escape(document.title.substring(0,150))+";"+Math.random()+
+"' alt='' title='LiveInternet: показано число просмотров и"+
+" посетителей за 24 часа' "+
+"border='0' width='88' height='31'><\/a>")
+</script><a href="https://www.liveinternet.ru/click" target="_blank"><img src="./CSS reset _files/hit(1)" alt="" title="LiveInternet: показано число просмотров и посетителей за 24 часа" border="0" width="88" height="31"></a><!--/LiveInternet-->
+
+</div>
+
+	</div>
+</footer>
+
+
+<script>
+  var loadDeferredStyles = function() {
+	var addStylesNode = document.getElementById("deferred-styles");
+	var replacement = document.createElement("div");
+	replacement.innerHTML = addStylesNode.textContent;
+	document.body.appendChild(replacement)
+	addStylesNode.parentElement.removeChild(addStylesNode);
+  };
+  var raf = window.requestAnimationFrame || window.mozRequestAnimationFrame ||
+	  window.webkitRequestAnimationFrame || window.msRequestAnimationFrame;
+  if (raf) raf(function() { window.setTimeout(loadDeferredStyles, 0); });
+  else window.addEventListener('load', loadDeferredStyles);
+  
+  
+  document.addEventListener("DOMContentLoaded", function() {
+  var lazyImages = [].slice.call(document.querySelectorAll("img.lazy"));
+
+  if ("IntersectionObserver" in window) {
+    let lazyImageObserver = new IntersectionObserver(function(entries, observer) {
+      entries.forEach(function(entry) {
+        if (entry.isIntersecting) {
+          let lazyImage = entry.target;
+          lazyImage.src = lazyImage.dataset.src;
+          lazyImage.classList.remove("lazy");
+          lazyImageObserver.unobserve(lazyImage);
+        }
+      });
+    });
+
+    lazyImages.forEach(function(lazyImage) {
+      lazyImageObserver.observe(lazyImage);
+    });
+  } else {
+    // Possibly fall back to a more compatible method here
+  }
+});
+  
+</script>
+
+<!--[if IE]> <script src="/js/html5.js"></script> <link rel="stylesheet" media="all" href="/css/ie_min.css"><![endif]--><!--[if IE 9]> <link rel="stylesheet" media="all" href="/css/ie9_min.css"><![endif]--><!-- css3-mediaqueries.js for IE less than 9 --><!--[if lt IE 9]><script src="/js/css3-mediaqueries.js"></script><![endif]-->
+<script async="" defer="" src="./CSS reset _files/scripts.js.Без названия"></script>
+<script src="./CSS reset _files/jquery-1.7.2.min.js.Без названия"></script>
+<script>
+	$(".review-add").click(function() {
+		
+		$.ajax({
+		url: '/tpl/templates_newsnew/controller=review/action=reviewform',
+		type: 'POST',
+		data: { products_id: 232, lang: 'ru' }, 
+		success: function(response) {
+			$('body').append(response);
+		}            
+		});
+		
+	});
+	
+	$(".b-button-yes").click(function() {
+		$(".b-support-likes__title").html('Спасибо за ваш отзыв!');
+		$(".b-support-likes__buttons").css("display", "none");
+		$(".b-support-likes__stats-number").html(parseInt($(".b-support-likes__stats-number").html())+1);
+				
+		$.ajax({
+		url: '/tpl/templates_newsnew/controller=ancient/action=buttonhelpyes',
+		type: 'POST',
+		data: { products_id: 232, lang: 'ru' }, 
+			success: function(response) {			
+			}            
+		});		
+	});
+	
+	$(".b-button-no").click(function() {
+		$(".b-support-likes__title").html('Спасибо за ваш отзыв!');
+		$(".b-support-likes__buttons").css("display", "none");
+		$(".b-support-likes__stats-number").html(parseInt($(".b-support-likes__stats-number").html())-1);
+				
+		$.ajax({
+		url: '/tpl/templates_newsnew/controller=ancient/action=buttonhelpno',
+		type: 'POST',
+		data: { products_id: 232, lang: 'ru' }, 
+			success: function(response) {			
+			}            
+		});		
+	});
+	
+	$(".answer-add").click(function() {
+		
+		var reviewid = $(this).data("reviewid");
+		
+		$.ajax({
+		url: '/tpl/templates_newsnew/controller=review/action=reviewform',
+		type: 'POST',
+		data: { products_id: 232, lang: 'ru', reviewid: reviewid }, 
+		success: function(response) {
+			$('body').append(response);
+			}            
+		});
+		
+	});
+	
+	$(document).on('click', '.cart-popup .js-btn-continue', function() {
+		$(this).parents('.cart-popup').remove();
+	});
+	
+	$(document).click( function(event){
+		if($(event.target).is('.cart-popup')) {
+			  $('.cart-popup').remove();				  
+		}			  
+	});
+
+	$(document).on('click', '.contents a[href^="#"]', function (event) {
+		event.preventDefault();
+
+		$('html, body').animate({
+			scrollTop: $($.attr(this, 'href')).offset().top - 68
+		}, 500);
+	});
+</script>
+
+<div>
+<link rel="stylesheet" href="./CSS reset _files/204246.css"></div></body></html>
